@@ -1,0 +1,557 @@
+2021-12-13 12:33:22:880 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:55] Starting AddressBookAppApplication using Java 16.0.1 on DESKTOP-038DJT2 with PID 6120 (C:\Users\ashwi\IdeaProjects\address-book-app\target\classes started by ashwi in C:\Users\ashwi\IdeaProjects\address-book-app)
+2021-12-13 12:33:22:880 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:635] No active profile set, falling back to default profiles: default
+2021-12-13 12:33:25:437 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-13 12:33:25:577 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+2021-12-13 12:33:27:249 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:33:27:296 [INFO] [main] [org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2021-12-13 12:33:27:296 [INFO] [main] [org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-13 12:33:27:530 [INFO] [main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2021-12-13 12:33:27:530 [INFO] [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 4536 ms
+2021-12-13 12:33:28:061 [INFO] [main] [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-13 12:33:28:217 [INFO] [main] [org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-13 12:33:28:733 [INFO] [main] [org.hibernate.annotations.common.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-13 12:33:29:076 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2021-12-13 12:33:30:451 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2021-12-13 12:33:30:514 [INFO] [main] [org.hibernate.dialect.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-13 12:33:35:169 [INFO] [main] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-13 12:33:35:184 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:33:35:950 [WARN] [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-13 12:33:36:825 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 12:33:36:825 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:61] Started AddressBookAppApplication in 15.459 seconds (JVM running for 18.042)
+2021-12-13 12:34:16:425 [INFO] [SpringApplicationShutdownHook] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:34:16:425 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2021-12-13 12:34:16:456 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2021-12-13 12:34:24:952 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:55] Starting AddressBookAppApplication using Java 16.0.1 on DESKTOP-038DJT2 with PID 10480 (C:\Users\ashwi\IdeaProjects\address-book-app\target\classes started by ashwi in C:\Users\ashwi\IdeaProjects\address-book-app)
+2021-12-13 12:34:24:968 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:635] No active profile set, falling back to default profiles: default
+2021-12-13 12:34:26:391 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-13 12:34:26:493 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interfaces.
+2021-12-13 12:34:27:434 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:34:27:449 [INFO] [main] [org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2021-12-13 12:34:27:449 [INFO] [main] [org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-13 12:34:27:637 [INFO] [main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2021-12-13 12:34:27:637 [INFO] [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2592 ms
+2021-12-13 12:34:27:840 [INFO] [main] [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-13 12:34:27:918 [INFO] [main] [org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-13 12:34:28:121 [INFO] [main] [org.hibernate.annotations.common.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-13 12:34:28:261 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2021-12-13 12:34:28:918 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2021-12-13 12:34:28:949 [INFO] [main] [org.hibernate.dialect.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-13 12:34:29:871 [INFO] [main] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-13 12:34:29:902 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:34:30:662 [WARN] [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-13 12:34:31:021 [INFO] [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-13 12:34:31:396 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 12:34:31:396 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] Context refreshed
+2021-12-13 12:34:31:428 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+2021-12-13 12:34:31:443 [WARN] [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+2021-12-13 12:34:31:443 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:34:31:459 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2021-12-13 12:34:31:459 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2021-12-13 12:34:31:474 [INFO] [main] [org.apache.catalina.core.StandardService:173] Stopping service [Tomcat]
+2021-12-13 12:34:31:490 [INFO] [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-13 12:34:31:568 [ERROR] [main] [org.springframework.boot.SpringApplication:819] Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.bridgelabz.AddressBookAppApplication.main(AddressBookAppApplication.java:14)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:112)
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:109)
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:37)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1232)
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:855)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:57)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:138)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:135)
+	at com.google.common.collect.Iterators$7.transform(Iterators.java:750)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:52)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:50)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:249)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:209)
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:614)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:111)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:96)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2021-12-13 12:35:56:793 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:55] Starting AddressBookAppApplication using Java 16.0.1 on DESKTOP-038DJT2 with PID 992 (C:\Users\ashwi\IdeaProjects\address-book-app\target\classes started by ashwi in C:\Users\ashwi\IdeaProjects\address-book-app)
+2021-12-13 12:35:56:793 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:635] No active profile set, falling back to default profiles: default
+2021-12-13 12:35:58:043 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-13 12:35:58:137 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2021-12-13 12:35:58:996 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:35:59:012 [INFO] [main] [org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2021-12-13 12:35:59:012 [INFO] [main] [org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-13 12:35:59:168 [INFO] [main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2021-12-13 12:35:59:168 [INFO] [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2304 ms
+2021-12-13 12:35:59:355 [INFO] [main] [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-13 12:35:59:418 [INFO] [main] [org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-13 12:35:59:621 [INFO] [main] [org.hibernate.annotations.common.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-13 12:35:59:746 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2021-12-13 12:36:00:152 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2021-12-13 12:36:00:199 [INFO] [main] [org.hibernate.dialect.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-13 12:36:01:011 [INFO] [main] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-13 12:36:01:027 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:36:01:667 [WARN] [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-13 12:36:01:855 [INFO] [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-13 12:36:02:292 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 12:36:02:292 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] Context refreshed
+2021-12-13 12:36:02:339 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+2021-12-13 12:36:02:339 [WARN] [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+2021-12-13 12:36:02:339 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:36:02:339 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2021-12-13 12:36:02:355 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2021-12-13 12:36:02:370 [INFO] [main] [org.apache.catalina.core.StandardService:173] Stopping service [Tomcat]
+2021-12-13 12:36:02:386 [INFO] [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-13 12:36:02:495 [ERROR] [main] [org.springframework.boot.SpringApplication:819] Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.bridgelabz.AddressBookAppApplication.main(AddressBookAppApplication.java:14)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:112)
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:109)
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:37)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1232)
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:855)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:57)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:138)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:135)
+	at com.google.common.collect.Iterators$7.transform(Iterators.java:750)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:52)
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:50)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:249)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:209)
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:614)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:111)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:96)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2021-12-13 12:36:45:775 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:55] Starting AddressBookAppApplication using Java 16.0.1 on DESKTOP-038DJT2 with PID 10200 (C:\Users\ashwi\IdeaProjects\address-book-app\target\classes started by ashwi in C:\Users\ashwi\IdeaProjects\address-book-app)
+2021-12-13 12:36:45:775 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:659] No active profile set, falling back to default profiles: default
+2021-12-13 12:36:47:674 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-13 12:36:47:799 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 86 ms. Found 1 JPA repository interfaces.
+2021-12-13 12:36:48:814 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:36:48:830 [INFO] [main] [org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2021-12-13 12:36:48:830 [INFO] [main] [org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-13 12:36:49:127 [INFO] [main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2021-12-13 12:36:49:127 [INFO] [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3276 ms
+2021-12-13 12:36:49:392 [INFO] [main] [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-13 12:36:49:533 [INFO] [main] [org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-13 12:36:49:830 [INFO] [main] [org.hibernate.annotations.common.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-13 12:36:49:986 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2021-12-13 12:36:50:408 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2021-12-13 12:36:50:470 [INFO] [main] [org.hibernate.dialect.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-13 12:36:51:658 [INFO] [main] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-13 12:36:51:673 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:36:52:439 [WARN] [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-13 12:36:52:688 [INFO] [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-13 12:36:53:157 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 12:36:53:157 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] Context refreshed
+2021-12-13 12:36:53:188 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+2021-12-13 12:36:53:282 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
+2021-12-13 12:36:53:516 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:61] Started AddressBookAppApplication in 8.412 seconds (JVM running for 9.183)
+2021-12-13 12:37:41:841 [INFO] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 12:37:41:841 [INFO] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-13 12:37:41:844 [INFO] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet:547] Completed initialization in 2 ms
+2021-12-13 12:37:52:671 [INFO] [http-nio-8080-exec-10] [com.bridgelabz.advice.LoggingAdvice:39] Method invoked: class com.bridgelabz.service.AddressBookService : addAddress()arguments : [{"name":"string","address":"string","city":"string","state":"string","phoneNumber":"string","zip":"string"}]
+2021-12-13 12:37:53:228 [INFO] [http-nio-8080-exec-10] [com.bridgelabz.advice.LoggingAdvice:42] class com.bridgelabz.service.AddressBookService : addAddress() Response : Address Added Successfully
+2021-12-13 12:38:03:318 [INFO] [http-nio-8080-exec-1] [com.bridgelabz.advice.LoggingAdvice:39] Method invoked: class com.bridgelabz.service.AddressBookService : getAllAddresses()arguments : []
+2021-12-13 12:38:03:617 [INFO] [http-nio-8080-exec-1] [com.bridgelabz.advice.LoggingAdvice:42] class com.bridgelabz.service.AddressBookService : getAllAddresses() Response : [com.bridgelabz.dto.AddressBookResponseDto@1c7c0d4d]
+2021-12-13 12:38:03:653 [ERROR] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.bridgelabz.dto.AddressBookResponseDto]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.bridgelabz.dto.AddressBookResponseDto and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.bridgelabz.dto.AddressBookResponseDto and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1276)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1510)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2021-12-13 12:38:22:988 [INFO] [http-nio-8080-exec-5] [com.bridgelabz.advice.LoggingAdvice:39] Method invoked: class com.bridgelabz.service.AddressBookService : getAllAddresses()arguments : []
+2021-12-13 12:38:22:993 [INFO] [http-nio-8080-exec-5] [com.bridgelabz.advice.LoggingAdvice:42] class com.bridgelabz.service.AddressBookService : getAllAddresses() Response : [com.bridgelabz.dto.AddressBookResponseDto@65d6267]
+2021-12-13 12:38:22:996 [ERROR] [http-nio-8080-exec-5] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.bridgelabz.dto.AddressBookResponseDto]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.bridgelabz.dto.AddressBookResponseDto and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.bridgelabz.dto.AddressBookResponseDto and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1276)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1510)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2021-12-13 12:38:24:503 [INFO] [http-nio-8080-exec-2] [com.bridgelabz.advice.LoggingAdvice:39] Method invoked: class com.bridgelabz.service.AddressBookService : getAllAddresses()arguments : []
+2021-12-13 12:38:24:510 [INFO] [http-nio-8080-exec-2] [com.bridgelabz.advice.LoggingAdvice:42] class com.bridgelabz.service.AddressBookService : getAllAddresses() Response : [com.bridgelabz.dto.AddressBookResponseDto@46b3532f]
+2021-12-13 12:38:24:512 [ERROR] [http-nio-8080-exec-2] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.bridgelabz.dto.AddressBookResponseDto]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.bridgelabz.dto.AddressBookResponseDto and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.bridgelabz.dto.AddressBookResponseDto and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1276)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1510)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2021-12-13 12:39:23:553 [INFO] [SpringApplicationShutdownHook] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:39:23:616 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2021-12-13 12:39:23:616 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2021-12-13 12:39:28:533 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:55] Starting AddressBookAppApplication using Java 16.0.1 on DESKTOP-038DJT2 with PID 4952 (C:\Users\ashwi\IdeaProjects\address-book-app\target\classes started by ashwi in C:\Users\ashwi\IdeaProjects\address-book-app)
+2021-12-13 12:39:28:533 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:659] No active profile set, falling back to default profiles: default
+2021-12-13 12:39:29:857 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-13 12:39:29:951 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+2021-12-13 12:39:30:982 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:39:30:998 [INFO] [main] [org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2021-12-13 12:39:30:998 [INFO] [main] [org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-13 12:39:31:170 [INFO] [main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2021-12-13 12:39:31:170 [INFO] [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2555 ms
+2021-12-13 12:39:31:417 [INFO] [main] [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-13 12:39:31:479 [INFO] [main] [org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-13 12:39:31:635 [INFO] [main] [org.hibernate.annotations.common.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-13 12:39:31:792 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2021-12-13 12:39:32:495 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2021-12-13 12:39:32:526 [INFO] [main] [org.hibernate.dialect.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-13 12:39:33:729 [INFO] [main] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-13 12:39:33:744 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:39:34:400 [WARN] [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-13 12:39:34:588 [INFO] [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-13 12:39:34:947 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 12:39:34:947 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] Context refreshed
+2021-12-13 12:39:34:963 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+2021-12-13 12:39:34:994 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
+2021-12-13 12:39:35:228 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:61] Started AddressBookAppApplication in 7.252 seconds (JVM running for 7.868)
+2021-12-13 12:39:38:702 [INFO] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 12:39:38:703 [INFO] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-13 12:39:38:704 [INFO] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet:547] Completed initialization in 1 ms
+2021-12-13 12:39:44:228 [INFO] [http-nio-8080-exec-8] [com.bridgelabz.advice.LoggingAdvice:39] Method invoked: class com.bridgelabz.service.AddressBookService : getAllAddresses()arguments : []
+2021-12-13 12:39:44:465 [INFO] [http-nio-8080-exec-8] [com.bridgelabz.advice.LoggingAdvice:42] class com.bridgelabz.service.AddressBookService : getAllAddresses() Response : [com.bridgelabz.dto.AddressBookResponseDto@7b386bba]
+2021-12-13 12:39:44:477 [ERROR] [http-nio-8080-exec-8] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.bridgelabz.dto.AddressBookResponseDto]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.bridgelabz.dto.AddressBookResponseDto and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.bridgelabz.dto.AddressBookResponseDto and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1276)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1510)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:219)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2021-12-13 12:40:22:013 [INFO] [SpringApplicationShutdownHook] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:40:22:028 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2021-12-13 12:40:22:044 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2021-12-13 12:41:15:582 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:55] Starting AddressBookAppApplication using Java 16.0.1 on DESKTOP-038DJT2 with PID 12224 (C:\Users\ashwi\IdeaProjects\address-book-app\target\classes started by ashwi in C:\Users\ashwi\IdeaProjects\address-book-app)
+2021-12-13 12:41:15:582 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:659] No active profile set, falling back to default profiles: default
+2021-12-13 12:41:16:949 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-13 12:41:17:027 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2021-12-13 12:41:18:098 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:41:18:114 [INFO] [main] [org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2021-12-13 12:41:18:114 [INFO] [main] [org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-13 12:41:18:285 [INFO] [main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2021-12-13 12:41:18:285 [INFO] [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2618 ms
+2021-12-13 12:41:18:526 [INFO] [main] [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-13 12:41:18:589 [INFO] [main] [org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-13 12:41:18:761 [INFO] [main] [org.hibernate.annotations.common.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-13 12:41:18:886 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2021-12-13 12:41:19:323 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2021-12-13 12:41:19:370 [INFO] [main] [org.hibernate.dialect.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-13 12:41:20:338 [INFO] [main] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-13 12:41:20:370 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:41:21:026 [WARN] [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-13 12:41:21:213 [INFO] [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-13 12:41:21:541 [WARN] [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-12-13 12:41:21:541 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:41:21:541 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2021-12-13 12:41:21:557 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2021-12-13 12:41:21:557 [INFO] [main] [org.apache.catalina.core.StandardService:173] Stopping service [Tomcat]
+2021-12-13 12:41:21:572 [INFO] [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-13 12:41:21:619 [ERROR] [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-12-13 12:41:34:109 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:55] Starting AddressBookAppApplication using Java 16.0.1 on DESKTOP-038DJT2 with PID 7744 (C:\Users\ashwi\IdeaProjects\address-book-app\target\classes started by ashwi in C:\Users\ashwi\IdeaProjects\address-book-app)
+2021-12-13 12:41:34:109 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:659] No active profile set, falling back to default profiles: default
+2021-12-13 12:41:35:396 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-13 12:41:35:474 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2021-12-13 12:41:36:474 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-13 12:41:36:489 [INFO] [main] [org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2021-12-13 12:41:36:505 [INFO] [main] [org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-13 12:41:36:661 [INFO] [main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2021-12-13 12:41:36:661 [INFO] [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2468 ms
+2021-12-13 12:41:36:911 [INFO] [main] [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-13 12:41:36:989 [INFO] [main] [org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-13 12:41:37:161 [INFO] [main] [org.hibernate.annotations.common.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-13 12:41:37:317 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2021-12-13 12:41:37:692 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2021-12-13 12:41:37:739 [INFO] [main] [org.hibernate.dialect.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-13 12:41:38:614 [INFO] [main] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-13 12:41:38:630 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-13 12:41:39:270 [WARN] [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-13 12:41:39:442 [INFO] [main] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-13 12:41:39:801 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-13 12:41:39:801 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160] Context refreshed
+2021-12-13 12:41:39:832 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+2021-12-13 12:41:39:864 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
+2021-12-13 12:41:40:082 [INFO] [main] [com.bridgelabz.AddressBookAppApplication:61] Started AddressBookAppApplication in 6.564 seconds (JVM running for 7.192)
+2021-12-13 12:41:45:671 [INFO] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-13 12:41:45:672 [INFO] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-13 12:41:45:673 [INFO] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet:547] Completed initialization in 1 ms
+2021-12-13 12:41:51:332 [INFO] [http-nio-8080-exec-8] [com.bridgelabz.advice.LoggingAdvice:39] Method invoked: class com.bridgelabz.service.AddressBookService : getAllAddresses()arguments : []
+2021-12-13 12:41:51:695 [INFO] [http-nio-8080-exec-8] [com.bridgelabz.advice.LoggingAdvice:42] class com.bridgelabz.service.AddressBookService : getAllAddresses() Response : [AddressBookResponseDto(id=0, name=null, address=null, city=null, state=null, phoneNumber=null, zip=null)]
