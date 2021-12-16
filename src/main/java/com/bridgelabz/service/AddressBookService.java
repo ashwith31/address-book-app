@@ -12,7 +12,12 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
-
+/********************************************************************************************************
+ * Purpose: This is a service class.It defines all the methods which are required in the controller class.
+ *
+ * @author Ashwith
+ * @since 11/12/21
+ *******************************************************************************************************/
 @Service
 public class AddressBookService {
 
@@ -74,7 +79,7 @@ public class AddressBookService {
      */
     public String editAddress(int id,  AddressBookDto addressBookDto) throws NoDataFoundException{
         AddressBook addressBook = findEmployeeById(id);
-        addressBook = addressBookBuilder.buildAtmEntity(addressBookDto, addressBook);
+        addressBook = addressBookBuilder.buildAddressBookEntity(addressBookDto, addressBook);
         addressBookRepository.save(addressBook);
         return ADDRESS_EDITED_SUCCESSFULLY;
     }

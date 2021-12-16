@@ -10,7 +10,12 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
-
+/**********************************************************************************************************************
+ * Purpose: This class is to make different HTTP request method calls using Rest controller.
+ *
+ * @author Ashwith
+ * @since 11/12/21
+ *********************************************************************************************************************/
 @RestController
 @RequestMapping("/api")
 public class AddressBookController {
@@ -23,7 +28,7 @@ public class AddressBookController {
      * @return List of all the data in the database.
      */
     @GetMapping(value = "/getAllAddresses")
-    public ResponseEntity<List<AddressBookResponseDto>> getAllEmployee() {
+    public ResponseEntity<List<AddressBookResponseDto>> getAllAddresses() {
         return new ResponseEntity<>(addressBookService.getAllAddresses(), HttpStatus.OK);
     }
 
@@ -45,8 +50,8 @@ public class AddressBookController {
      * @param addressBookDto the data to be updated
      * @return string to say that if the data is updated successfully or not.
      */
-    @PutMapping("/editEmployee")
-    public ResponseEntity<String> editEmployee(@Valid @RequestParam int id,
+    @PutMapping("/editAddress")
+    public ResponseEntity<String> editAddress(@Valid @RequestParam int id,
                                                @RequestBody AddressBookDto addressBookDto) {
         return new ResponseEntity<>(addressBookService.editAddress(id, addressBookDto), HttpStatus.OK);
     }
@@ -57,8 +62,8 @@ public class AddressBookController {
      * @param id of the data to be deleted.
      * @return string to say that if the data is deleted successfully or not.
      */
-    @DeleteMapping("/removeEmployee")
-    public ResponseEntity<String> deleteEmployee(@Valid @RequestParam int id) {
+    @DeleteMapping("/removeAddress")
+    public ResponseEntity<String> deleteAddress(@Valid @RequestParam int id) {
         return new ResponseEntity<>(addressBookService.deleteAddress(id), HttpStatus.OK);
     }
 }
